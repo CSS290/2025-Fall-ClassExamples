@@ -1,0 +1,137 @@
+Script started on 2025-10-19 22:09:38+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="161" LINES="33"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP5[?2004h[cssuwbstudent@KelvinLinuxMachine MP5]$ ./re[K[KRemoveDuplicate ~ksung/[K[K[K[K[K[K/ksung/github/2025-Fall-ClassExamples/wk3/[K_10_7/
+1.RecursionReview/     2.SeparateCompilation/ 3.WorkWithLibrary/     MP3-TestCases/         
+[cssuwbstudent@KelvinLinuxMachine MP5]$ ./RemoveDuplicate ~/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/
+[?2004lYour command: ./RemoveDuplicate /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=71
+MP3-SampleOutput         TestCase1/               TestCase2/               f1                       TestCase3/               
+A/                       TestCase4/               D                        E                        A/                       
+B/                       C/                       TestCase5/               A/                       f1                       
+f2                       f3                       B/                       D/                       f4                       
+E/                       f5                       f6                       f7                       F/                       
+f8                       G/                       f10                      f9                       C/                       
+TestCase6/               D                        E                        A/                       F                        
+B/                       G/                       H                        I                        C/                       
+J                        K                        TestCase7/               f1                       f2                       
+A/                       f4                       D/                       f5                       f6                       
+f7                       J/                       K/                       L/                       E/                       
+f7                       f8                       B/                       F/                       G/                       
+M/                       f9                       N/                       H/                       f10                      
+f11                      f12                      f13                      C/                       I/                       
+f14                      
+** Removing duplicated name index=9: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase4/A
+** Removing duplicated name index=13: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5/A
+** Removing duplicated name index=14: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5/A/f1
+** Removing duplicated name index=17: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5/B
+** Removing duplicated name index=18: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5/B/D
+** Removing duplicated name index=20: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5/B/E
+** Removing duplicated name index=29: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5/C
+** Removing duplicated name index=31: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/D
+** Removing duplicated name index=32: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/E
+** Removing duplicated name index=33: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/A
+** Removing duplicated name index=34: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/A/F
+** Removing duplicated name index=35: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/B
+** Removing duplicated name index=36: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/B/G
+** Removing duplicated name index=39: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6/C
+** Removing duplicated name index=43: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/f1
+** Removing duplicated name index=44: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/f2
+** Removing duplicated name index=45: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A
+** Removing duplicated name index=46: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/f4
+** Removing duplicated name index=47: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/D
+** Removing duplicated name index=48: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/D/f5
+** Removing duplicated name index=49: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/D/f6
+** Removing duplicated name index=50: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/D/f7
+** Removing duplicated name index=51: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/D/J
+** Removing duplicated name index=52: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/D/K
+** Removing duplicated name index=54: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/E
+** Removing duplicated name index=55: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/E/f7
+** Removing duplicated name index=56: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/A/E/f8
+** Removing duplicated name index=57: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/B
+** Removing duplicated name index=58: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/B/F
+** Removing duplicated name index=59: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/B/G
+** Removing duplicated name index=61: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/B/G/M/f9
+** Removing duplicated name index=63: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/B/H
+** Removing duplicated name index=64: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/B/H/f10
+** Removing duplicated name index=68: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/C
+** Removing duplicated name index=69: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7/C/I
+
+After removing dupliated number of entries (files + directories)=36
+MP3-SampleOutput         TestCase1/               TestCase2/               f1                       TestCase3/               
+A/                       TestCase4/               D                        E                        B/                       
+C/                       TestCase5/               f2                       f3                       f4                       
+f5                       f6                       f7                       F/                       f8                       
+G/                       f10                      f9                       TestCase6/               H                        
+I                        J                        K                        TestCase7/               L/                       
+M/                       N/                       f11                      f12                      f13                      
+f14                      
+
+Total removed: 35
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP5[?2004h[cssuwbstudent@KelvinLinuxMachine MP5]$ 
+[?2004l]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP5[?2004h[cssuwbstudent@KelvinLinuxMachine MP5]$ ./RemoveDuplicate ~/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K0_7/
+1.RecursionReview/     2.SeparateCompilation/ 3.WorkWithLibrary/     MP3-TestCases/         
+[cssuwbstudent@KelvinLinuxMachine MP5]$ ./RemoveDuplicate ~/ksung/github/2025-Fall-ClassExamples/wk3_10_7/1.RecursionReview/
+[?2004lYour command: ./RemoveDuplicate /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/1.RecursionReview/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/1.RecursionReview/"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=5
+AttachLeft.cpp           AttachLeft.o             Makefile                 ReverseDigits.cpp        ReverseDigits.o          
+
+
+After removing dupliated number of entries (files + directories)=5
+AttachLeft.cpp           AttachLeft.o             Makefile                 ReverseDigits.cpp        ReverseDigits.o          
+
+
+Total removed: 0
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP5[?2004h[cssuwbstudent@KelvinLinuxMachine MP5]$ ./RemoveDuplicate ~/ksung/github/2025-Fall-ClassExamples/wk3_10_7/1.RecursionReview/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP5[?2004h[cssuwbstudent@KelvinLinuxMachine MP5]$ ./RemoveDuplicate ~/ksung/github/2025-Fall-ClassExamples/wk3_10_7/1.RecursionReview/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K4_10_13/
+[?2004lYour command: ./RemoveDuplicate /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=51
+1.Pointers/              a.out                    Pointers.cpp             10.ScopingDetails/       a.out                    
+ScopingDetails.cpp       11.DangerofPointers/     a.out                    DangerofPointers.cpp     2.PointersAndReferences/ 
+a.out                    PointersAndReferences.cpp 3.PointerAsParameter/    a.out                    PointerAsParameters.cpp  
+4.PointerToStructs/      a.out                    PointerToStructs.cpp     5.PointerToClasses/      a.out                    
+PointerToClass.cpp       6.MemoryAllocation/      a.out                    MemoryAllocation.cpp     7.ArraysAndMemoryAllocation/ 
+a.out                    ArraysAndMemory.cpp      8.ArraysAndPointerArithmetic/ a.out                    PointerArithmetic.cpp    
+9.TwoDimentionalArrays/  a.out                    TwoDArrays.cpp           MP4-SampleOutput/        MP4-of-MPSolutions       
+MP4-of-MyDir             MP4-of-wk1               MP4-of-wk2               DirWithOneFile/          f1                       
+DirWithOneSubDir/        Sub/                     EmptyDir/                MyDir/                   f1                       
+SubDir1/                 f2                       f3                       SubDir2/                 f4                       
+f5                       
+** Removing duplicated name index=4: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/10.ScopingDetails/a.out
+** Removing duplicated name index=7: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/11.DangerofPointers/a.out
+** Removing duplicated name index=10: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/2.PointersAndReferences/a.out
+** Removing duplicated name index=13: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/3.PointerAsParameter/a.out
+** Removing duplicated name index=16: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/4.PointerToStructs/a.out
+** Removing duplicated name index=19: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/5.PointerToClasses/a.out
+** Removing duplicated name index=22: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/6.MemoryAllocation/a.out
+** Removing duplicated name index=25: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/7.ArraysAndMemoryAllocation/a.out
+** Removing duplicated name index=28: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/8.ArraysAndPointerArithmetic/a.out
+** Removing duplicated name index=31: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/9.TwoDimentionalArrays/a.out
+** Removing duplicated name index=44: /home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/MP4-SampleOutput/MyDir/f1
+
+After removing dupliated number of entries (files + directories)=40
+1.Pointers/              a.out                    Pointers.cpp             10.ScopingDetails/       ScopingDetails.cpp       
+11.DangerofPointers/     DangerofPointers.cpp     2.PointersAndReferences/ PointersAndReferences.cpp 3.PointerAsParameter/    
+PointerAsParameters.cpp  4.PointerToStructs/      PointerToStructs.cpp     5.PointerToClasses/      PointerToClass.cpp       
+6.MemoryAllocation/      MemoryAllocation.cpp     7.ArraysAndMemoryAllocation/ ArraysAndMemory.cpp      8.ArraysAndPointerArithmetic/ 
+PointerArithmetic.cpp    9.TwoDimentionalArrays/  TwoDArrays.cpp           MP4-SampleOutput/        MP4-of-MPSolutions       
+MP4-of-MyDir             MP4-of-wk1               MP4-of-wk2               DirWithOneFile/          f1                       
+DirWithOneSubDir/        Sub/                     EmptyDir/                MyDir/                   SubDir1/                 
+f2                       f3                       SubDir2/                 f4                       f5                       
+
+
+Total removed: 11
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP5[?2004h[cssuwbstudent@KelvinLinuxMachine MP5]$ exit
+[?2004lexit
+
+Script done on 2025-10-19 22:11:08+00:00 [COMMAND_EXIT_CODE="0"]
