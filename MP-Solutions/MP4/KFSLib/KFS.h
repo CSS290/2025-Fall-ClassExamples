@@ -32,5 +32,3 @@ bool is_directory(const string &dir_path);
 //
 // **NOTE**: the allocated array must be deleted by the caller
 dir_elm_info* get_directory_entries(const string &dir_path, int &num_entries);
-
-int num_subdir(const string &dir_path);
