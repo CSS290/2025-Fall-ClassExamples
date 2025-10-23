@@ -10,6 +10,7 @@
 //      https://en.cppreference.com/w/cpp/filesystem/directory_entry/path
 //
 #include "KFS.h"
+#include <algorithm>
 
 // These two functions are local to this file, not exported via the KFS.h header
 
@@ -76,6 +77,10 @@ dir_elm_info* get_directory_entries(const string &dir_path, int &num_entries) {
         entries[i].is_directory = entry.is_directory();
         i++;
     }
+
+    sort(entries, entries + num_entries, [](const dir_elm_info &a, const dir_elm_info &b) {
+        return a.name < b.name;
+    });
     return entries;
 }
 
