@@ -1,0 +1,304 @@
+Script started on 2025-10-26 19:08:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="186" LINES="16"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate .
+[?2004lYour command: CountDuplicate . 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/."
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=12
+CountDuplicate           CountDuplicate.cpp       CountDuplicate.o         MP6-SampleOutput         Makefile                 
+Spec                     KFSLib/                  KFS.a                    KFS.cpp                  KFS.h                    
+KFS.o                    Makefile                 
+** Removing from index=  11:             Makefile Insert into index=0
+
+After removing dupliated number of entries (files + directories)=11
+CountDuplicate           CountDuplicate.cpp       CountDuplicate.o         MP6-SampleOutput         Makefile                 
+Spec                     KFSLib/                  KFS.a                    KFS.cpp                  KFS.h                    
+KFS.o                    
+
+Total removed: 1
+
+Duplicate Array:
+  Index(   0):             Makefile Count = 1
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ./KFSLib/
+[?2004lYour command: CountDuplicate ./KFSLib/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/./KFSLib/"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=5
+KFS.a                    KFS.cpp                  KFS.h                    KFS.o                    Makefile                 
+
+
+After removing dupliated number of entries (files + directories)=5
+KFS.a                    KFS.cpp                  KFS.h                    KFS.o                    Makefile                 
+
+
+Total removed: 0
+
+Duplicate Array:
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ./KFSLib/[Ka.out[Kg++ *.cppls[Kcd ../6.b.MuchLessIteratorsCreated/a.out[Kg++ *.cppls[Kcd ../6.a.HowManyIteratorsCreated/pwd[Kg++ Driver.cpp ls[Kcd '/home/cssuwbstudent/ksung/github/CSSSKL-342-MyOwn/MyOwnExamples/After_Lab4/2.Classes/'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpopd[Kcd '/home/cssuwbstudent/ksung/github/CSSSKL-342-MyOwn/MyOwnExamples/After_Lab4/2.Classes/'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ Driver.cpp pwd[Kcd ../6.a.HowManyIteratorsCreated/ls[Kg++ *.cpp[4Pa.outcd ../6.b.MuchLessIteratorsCreated/ls[Kg++ *.cpp[4Pa.outCountDuplicate ./KFSLib/[KCountDuplicate ../../
+.gitignore                       2025-Fall-MPs/                   CSSSKL-342/                      Exercise-1-SimpleIO/             zzToDelete/
+2025-Fall-ClassExamples/         CSS290/                          CSSSKL-342-MyOwn/                TestCase-MP0-Simple-Hello-World/ 
+[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-
+MP-Solutions/ MP-TestCases/ 
+[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase1
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase1 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase1"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=0
+
+
+After removing dupliated number of entries (files + directories)=0
+
+
+Total removed: 0
+
+Duplicate Array:
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase1[K2
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase2 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase2"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=1
+f1                       
+
+After removing dupliated number of entries (files + directories)=1
+f1                       
+
+Total removed: 0
+
+Duplicate Array:
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase2[K3
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase3 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase3"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=3
+f1                       A/                       f1                       
+** Removing from index=   2:                   f1 Insert into index=0
+
+After removing dupliated number of entries (files + directories)=2
+f1                       A/                       
+
+Total removed: 1
+
+Duplicate Array:
+  Index(   0):                   f1 Count = 1
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase3[K4
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase4 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase4"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=9
+D                        E                        A/                       D                        A/                       
+B/                       B/                       C/                       D                        
+** Removing from index=   3:                    D Insert into index=0
+** Removing from index=   4:                    A Insert into index=0
+** Removing from index=   6:                    B Insert into index=1
+** Removing from index=   8:                    D Insert into index=2
+
+After removing dupliated number of entries (files + directories)=5
+D                        E                        A/                       B/                       C/                       
+
+
+Total removed: 4
+
+Duplicate Array:
+  Index(   0):                    A Count = 1
+  Index(   1):                    B Count = 1
+  Index(   2):                    D Count = 2
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase4[K5
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase5 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase5"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=18
+A/                       f1                       f2                       f3                       B/                       
+D/                       f4                       E/                       f5                       f6                       
+f7                       F/                       A                        f8                       G/                       
+D                        f8                       C/                       
+** Removing from index=  12:                    A Insert into index=0
+** Removing from index=  15:                    D Insert into index=1
+** Removing from index=  16:                   f8 Insert into index=2
+
+After removing dupliated number of entries (files + directories)=15
+A/                       f1                       f2                       f3                       B/                       
+D/                       f4                       E/                       f5                       f6                       
+f7                       F/                       f8                       G/                       C/                       
+
+
+Total removed: 3
+
+Duplicate Array:
+  Index(   0):                    A Count = 1
+  Index(   1):                    D Count = 1
+  Index(   2):                   f8 Count = 1
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase5[K6
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase6 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase6"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=11
+D                        f1                       A/                       F                        B/                       
+F/                       A                        f1                       C/                       A                        
+f1                       
+** Removing from index=   5:                    F Insert into index=0
+** Removing from index=   6:                    A Insert into index=0
+** Removing from index=   7:                   f1 Insert into index=2
+** Removing from index=   9:                    A Insert into index=0
+** Removing from index=  10:                   f1 Insert into index=2
+
+After removing dupliated number of entries (files + directories)=6
+D                        f1                       A/                       F                        B/                       
+C/                       
+
+Total removed: 5
+
+Duplicate Array:
+  Index(   0):                    A Count = 2
+  Index(   1):                    F Count = 1
+  Index(   2):                   f1 Count = 2
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase6[K7
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase7 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase7"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=28
+f1                       f2                       A/                       f3                       D/                       
+f1                       f2                       f3                       B/                       C/                       
+D/                       E/                       f1                       f2                       B/                       
+A/                       M/                       f1                       N/                       F/                       
+H/                       B                        f1                       f2                       f3                       
+C/                       D/                       f3                       
+** Removing from index=   5:                   f1 Insert into index=0
+** Removing from index=   6:                   f2 Insert into index=1
+** Removing from index=   7:                   f3 Insert into index=2
+** Removing from index=  10:                    D Insert into index=0
+** Removing from index=  12:                   f1 Insert into index=1
+** Removing from index=  13:                   f2 Insert into index=2
+** Removing from index=  14:                    B Insert into index=0
+** Removing from index=  15:                    A Insert into index=0
+** Removing from index=  17:                   f1 Insert into index=3
+** Removing from index=  21:                    B Insert into index=1
+** Removing from index=  22:                   f1 Insert into index=3
+** Removing from index=  23:                   f2 Insert into index=4
+** Removing from index=  24:                   f3 Insert into index=5
+** Removing from index=  25:                    C Insert into index=2
+** Removing from index=  26:                    D Insert into index=3
+** Removing from index=  27:                   f3 Insert into index=6
+
+After removing dupliated number of entries (files + directories)=12
+f1                       f2                       A/                       f3                       D/                       
+B/                       C/                       E/                       M/                       N/                       
+F/                       H/                       
+
+Total removed: 16
+
+Duplicate Array:
+  Index(   0):                    A Count = 1
+  Index(   1):                    B Count = 2
+  Index(   2):                    C Count = 1
+  Index(   3):                    D Count = 2
+  Index(   4):                   f1 Count = 4
+  Index(   5):                   f2 Count = 3
+  Index(   6):                   f3 Count = 3
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/TestCase7[K[K[K[K[K[K[K[K[K
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/MP6-TestCases/"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=77
+TestCase1/               TestCase2/               f1                       TestCase3/               f1                       
+A/                       f1                       TestCase4/               D                        E                        
+A/                       D                        A/                       B/                       B/                       
+C/                       D                        TestCase5/               A/                       f1                       
+f2                       f3                       B/                       D/                       f4                       
+E/                       f5                       f6                       f7                       F/                       
+A                        f8                       G/                       D                        f8                       
+C/                       TestCase6/               D                        f1                       A/                       
+F                        B/                       F/                       A                        f1                       
+C/                       A                        f1                       TestCase7/               f1                       
+f2                       A/                       f3                       D/                       f1                       
+f2                       f3                       B/                       C/                       D/                       
+E/                       f1                       f2                       B/                       A/                       
+M/                       f1                       N/                       F/                       H/                       
+B                        f1                       f2                       f3                       C/                       
+D/                       f3                       
+** Removing from index=   4:                   f1 Insert into index=0
+** Removing from index=   6:                   f1 Insert into index=0
+** Removing from index=  10:                    A Insert into index=0
+** Removing from index=  11:                    D Insert into index=1
+** Removing from index=  12:                    A Insert into index=0
+** Removing from index=  14:                    B Insert into index=1
+** Removing from index=  16:                    D Insert into index=2
+** Removing from index=  18:                    A Insert into index=0
+** Removing from index=  19:                   f1 Insert into index=3
+** Removing from index=  22:                    B Insert into index=1
+** Removing from index=  23:                    D Insert into index=2
+** Removing from index=  25:                    E Insert into index=3
+** Removing from index=  30:                    A Insert into index=0
+** Removing from index=  33:                    D Insert into index=2
+** Removing from index=  34:                   f8 Insert into index=5
+** Removing from index=  35:                    C Insert into index=2
+** Removing from index=  37:                    D Insert into index=3
+** Removing from index=  38:                   f1 Insert into index=5
+** Removing from index=  39:                    A Insert into index=0
+** Removing from index=  40:                    F Insert into index=5
+** Removing from index=  41:                    B Insert into index=1
+** Removing from index=  42:                    F Insert into index=5
+** Removing from index=  43:                    A Insert into index=0
+** Removing from index=  44:                   f1 Insert into index=6
+** Removing from index=  45:                    C Insert into index=2
+** Removing from index=  46:                    A Insert into index=0
+** Removing from index=  47:                   f1 Insert into index=6
+** Removing from index=  49:                   f1 Insert into index=6
+** Removing from index=  50:                   f2 Insert into index=7
+** Removing from index=  51:                    A Insert into index=0
+** Removing from index=  52:                   f3 Insert into index=8
+** Removing from index=  53:                    D Insert into index=3
+** Removing from index=  54:                   f1 Insert into index=6
+** Removing from index=  55:                   f2 Insert into index=7
+** Removing from index=  56:                   f3 Insert into index=8
+** Removing from index=  57:                    B Insert into index=1
+** Removing from index=  58:                    C Insert into index=2
+** Removing from index=  59:                    D Insert into index=3
+** Removing from index=  60:                    E Insert into index=4
+** Removing from index=  61:                   f1 Insert into index=6
+** Removing from index=  62:                   f2 Insert into index=7
+** Removing from index=  63:                    B Insert into index=1
+** Removing from index=  64:                    A Insert into index=0
+** Removing from index=  66:                   f1 Insert into index=6
+** Removing from index=  68:                    F Insert into index=5
+** Removing from index=  70:                    B Insert into index=1
+** Removing from index=  71:                   f1 Insert into index=6
+** Removing from index=  72:                   f2 Insert into index=7
+** Removing from index=  73:                   f3 Insert into index=8
+** Removing from index=  74:                    C Insert into index=2
+** Removing from index=  75:                    D Insert into index=3
+** Removing from index=  76:                   f3 Insert into index=8
+
+After removing dupliated number of entries (files + directories)=25
+TestCase1/               TestCase2/               f1                       TestCase3/               A/                       
+TestCase4/               D                        E                        B/                       C/                       
+TestCase5/               f2                       f3                       f4                       f5                       
+f6                       f7                       F/                       f8                       G/                       
+TestCase6/               TestCase7/               M/                       N/                       H/                       
+
+
+Total removed: 52
+
+Duplicate Array:
+  Index(   0):                    A Count = 9
+  Index(   1):                    B Count = 6
+  Index(   2):                    C Count = 4
+  Index(   3):                    D Count = 8
+  Index(   4):                    E Count = 2
+  Index(   5):                    F Count = 3
+  Index(   6):                   f1 Count = 11
+  Index(   7):                   f2 Count = 4
+  Index(   8):                   f3 Count = 4
+  Index(   9):                   f8 Count = 1
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ exit
+[?2004lexit
+
+Script done on 2025-10-26 19:09:51+00:00 [COMMAND_EXIT_CODE="0"]

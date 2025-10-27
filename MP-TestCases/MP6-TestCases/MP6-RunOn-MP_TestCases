@@ -1,0 +1,224 @@
+Script started on 2025-10-26 19:10:41+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="186" LINES="16"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/
+[?2004lYour command: CountDuplicate ../../2025-Fall-ClassExamples/MP-TestCases/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-MPs/MP6/../../2025-Fall-ClassExamples/MP-TestCases/"
+And, remove all duplicated names.
+
+Before removing dupliated number of entries (files + directories)=187
+MP1_TestCases/           TestCases                MP2_TestCases/           TestCases                MP3-TestCases/           
+MP3-SampleOutput         TestCase1/               TestCase2/               f1                       TestCase3/               
+A/                       TestCase4/               D                        E                        A/                       
+B/                       C/                       TestCase5/               A/                       f1                       
+f2                       f3                       B/                       D/                       f4                       
+E/                       f5                       f6                       f7                       F/                       
+f8                       G/                       f10                      f9                       C/                       
+TestCase6/               D                        E                        A/                       F                        
+B/                       G/                       H                        I                        C/                       
+J                        K                        TestCase7/               f1                       f2                       
+A/                       f4                       D/                       f5                       f6                       
+f7                       J/                       K/                       L/                       E/                       
+f7                       f8                       B/                       F/                       G/                       
+M/                       f9                       N/                       H/                       f10                      
+f11                      f12                      f13                      C/                       I/                       
+f14                      MP4-SampleOutput/        MP4-of-MPSolutions       MP4-of-MyDir             MP4-of-wk1               
+MP4-of-wk2               DirWithOneFile/          f1                       DirWithOneSubDir/        Sub/                     
+EmptyDir/                MyDir/                   f1                       SubDir1/                 f2                       
+f3                       SubDir2/                 f4                       f5                       MP5-Info/                
+MP5_SampleOutput         MP5_TestCaseOutput       KFSLib/                  KFS.a                    KFS.cpp                  
+KFS.h                    KFS.o                    Makefile                 TestCase1/               TestCase2/               
+a                        TestCase3/               a/                       a                        MP6-TestCases/           
+TestCase1/               TestCase2/               f1                       TestCase3/               f1                       
+A/                       f1                       TestCase4/               D                        E                        
+A/                       D                        A/                       B/                       B/                       
+C/                       D                        TestCase5/               A/                       f1                       
+f2                       f3                       B/                       D/                       f4                       
+E/                       f5                       f6                       f7                       F/                       
+A                        f8                       G/                       D                        f8                       
+C/                       TestCase6/               D                        f1                       A/                       
+F                        B/                       F/                       A                        f1                       
+C/                       A                        f1                       TestCase7/               f1                       
+f2                       A/                       f3                       D/                       f1                       
+f2                       f3                       B/                       C/                       D/                       
+E/                       f1                       f2                       B/                       A/                       
+M/                       f1                       N/                       F/                       H/                       
+B                        f1                       f2                       f3                       C/                       
+D/                       f3                       
+** Removing from index=   3:            TestCases Insert into index=0
+** Removing from index=  14:                    A Insert into index=0
+** Removing from index=  18:                    A Insert into index=0
+** Removing from index=  19:                   f1 Insert into index=2
+** Removing from index=  22:                    B Insert into index=1
+** Removing from index=  23:                    D Insert into index=2
+** Removing from index=  25:                    E Insert into index=3
+** Removing from index=  34:                    C Insert into index=2
+** Removing from index=  36:                    D Insert into index=3
+** Removing from index=  37:                    E Insert into index=4
+** Removing from index=  38:                    A Insert into index=0
+** Removing from index=  39:                    F Insert into index=5
+** Removing from index=  40:                    B Insert into index=1
+** Removing from index=  41:                    G Insert into index=6
+** Removing from index=  44:                    C Insert into index=2
+** Removing from index=  48:                   f1 Insert into index=8
+** Removing from index=  49:                   f2 Insert into index=9
+** Removing from index=  50:                    A Insert into index=0
+** Removing from index=  51:                   f4 Insert into index=10
+** Removing from index=  52:                    D Insert into index=3
+** Removing from index=  53:                   f5 Insert into index=11
+** Removing from index=  54:                   f6 Insert into index=12
+** Removing from index=  55:                   f7 Insert into index=13
+** Removing from index=  56:                    J Insert into index=7
+** Removing from index=  57:                    K Insert into index=8
+** Removing from index=  59:                    E Insert into index=4
+** Removing from index=  60:                   f7 Insert into index=15
+** Removing from index=  61:                   f8 Insert into index=16
+** Removing from index=  62:                    B Insert into index=1
+** Removing from index=  63:                    F Insert into index=5
+** Removing from index=  64:                    G Insert into index=6
+** Removing from index=  66:                   f9 Insert into index=17
+** Removing from index=  68:                    H Insert into index=7
+** Removing from index=  69:                  f10 Insert into index=12
+** Removing from index=  73:                    C Insert into index=2
+** Removing from index=  74:                    I Insert into index=8
+** Removing from index=  82:                   f1 Insert into index=12
+** Removing from index=  87:                   f1 Insert into index=12
+** Removing from index=  89:                   f2 Insert into index=14
+** Removing from index=  90:                   f3 Insert into index=15
+** Removing from index=  92:                   f4 Insert into index=16
+** Removing from index=  93:                   f5 Insert into index=17
+** Removing from index= 103:            TestCase1 Insert into index=11
+** Removing from index= 104:            TestCase2 Insert into index=12
+** Removing from index= 106:            TestCase3 Insert into index=13
+** Removing from index= 107:                    a Insert into index=15
+** Removing from index= 108:                    a Insert into index=15
+** Removing from index= 110:            TestCase1 Insert into index=11
+** Removing from index= 111:            TestCase2 Insert into index=12
+** Removing from index= 112:                   f1 Insert into index=16
+** Removing from index= 113:            TestCase3 Insert into index=13
+** Removing from index= 114:                   f1 Insert into index=16
+** Removing from index= 115:                    A Insert into index=0
+** Removing from index= 116:                   f1 Insert into index=16
+** Removing from index= 117:            TestCase4 Insert into index=14
+** Removing from index= 118:                    D Insert into index=3
+** Removing from index= 119:                    E Insert into index=4
+** Removing from index= 120:                    A Insert into index=0
+** Removing from index= 121:                    D Insert into index=3
+** Removing from index= 122:                    A Insert into index=0
+** Removing from index= 123:                    B Insert into index=1
+** Removing from index= 124:                    B Insert into index=1
+** Removing from index= 125:                    C Insert into index=2
+** Removing from index= 126:                    D Insert into index=3
+** Removing from index= 127:            TestCase5 Insert into index=15
+** Removing from index= 128:                    A Insert into index=0
+** Removing from index= 129:                   f1 Insert into index=18
+** Removing from index= 130:                   f2 Insert into index=20
+** Removing from index= 131:                   f3 Insert into index=21
+** Removing from index= 132:                    B Insert into index=1
+** Removing from index= 133:                    D Insert into index=3
+** Removing from index= 134:                   f4 Insert into index=22
+** Removing from index= 135:                    E Insert into index=4
+** Removing from index= 136:                   f5 Insert into index=23
+** Removing from index= 137:                   f6 Insert into index=24
+** Removing from index= 138:                   f7 Insert into index=25
+** Removing from index= 139:                    F Insert into index=5
+** Removing from index= 140:                    A Insert into index=0
+** Removing from index= 141:                   f8 Insert into index=26
+** Removing from index= 142:                    G Insert into index=6
+** Removing from index= 143:                    D Insert into index=3
+** Removing from index= 144:                   f8 Insert into index=26
+** Removing from index= 145:                    C Insert into index=2
+** Removing from index= 146:            TestCase6 Insert into index=16
+** Removing from index= 147:                    D Insert into index=3
+** Removing from index= 148:                   f1 Insert into index=19
+** Removing from index= 149:                    A Insert into index=0
+** Removing from index= 150:                    F Insert into index=5
+** Removing from index= 151:                    B Insert into index=1
+** Removing from index= 152:                    F Insert into index=5
+** Removing from index= 153:                    A Insert into index=0
+** Removing from index= 154:                   f1 Insert into index=19
+** Removing from index= 155:                    C Insert into index=2
+** Removing from index= 156:                    A Insert into index=0
+** Removing from index= 157:                   f1 Insert into index=19
+** Removing from index= 158:            TestCase7 Insert into index=17
+** Removing from index= 159:                   f1 Insert into index=20
+** Removing from index= 160:                   f2 Insert into index=22
+** Removing from index= 161:                    A Insert into index=0
+** Removing from index= 162:                   f3 Insert into index=23
+** Removing from index= 163:                    D Insert into index=3
+** Removing from index= 164:                   f1 Insert into index=20
+** Removing from index= 165:                   f2 Insert into index=22
+** Removing from index= 166:                   f3 Insert into index=23
+** Removing from index= 167:                    B Insert into index=1
+** Removing from index= 168:                    C Insert into index=2
+** Removing from index= 169:                    D Insert into index=3
+** Removing from index= 170:                    E Insert into index=4
+** Removing from index= 171:                   f1 Insert into index=20
+** Removing from index= 172:                   f2 Insert into index=22
+** Removing from index= 173:                    B Insert into index=1
+** Removing from index= 174:                    A Insert into index=0
+** Removing from index= 175:                    M Insert into index=11
+** Removing from index= 176:                   f1 Insert into index=21
+** Removing from index= 177:                    N Insert into index=12
+** Removing from index= 178:                    F Insert into index=5
+** Removing from index= 179:                    H Insert into index=7
+** Removing from index= 180:                    B Insert into index=1
+** Removing from index= 181:                   f1 Insert into index=22
+** Removing from index= 182:                   f2 Insert into index=24
+** Removing from index= 183:                   f3 Insert into index=25
+** Removing from index= 184:                    C Insert into index=2
+** Removing from index= 185:                    D Insert into index=3
+** Removing from index= 186:                   f3 Insert into index=25
+
+After removing dupliated number of entries (files + directories)=63
+MP1_TestCases/           TestCases                MP2_TestCases/           MP3-TestCases/           MP3-SampleOutput         
+TestCase1/               TestCase2/               f1                       TestCase3/               A/                       
+TestCase4/               D                        E                        B/                       C/                       
+TestCase5/               f2                       f3                       f4                       f5                       
+f6                       f7                       F/                       f8                       G/                       
+f10                      f9                       TestCase6/               H                        I                        
+J                        K                        TestCase7/               L/                       M/                       
+N/                       f11                      f12                      f13                      f14                      
+MP4-SampleOutput/        MP4-of-MPSolutions       MP4-of-MyDir             MP4-of-wk1               MP4-of-wk2               
+DirWithOneFile/          DirWithOneSubDir/        Sub/                     EmptyDir/                MyDir/                   
+SubDir1/                 SubDir2/                 MP5-Info/                MP5_SampleOutput         MP5_TestCaseOutput       
+KFSLib/                  KFS.a                    KFS.cpp                  KFS.h                    KFS.o                    
+Makefile                 a                        MP6-TestCases/           
+
+Total removed: 124
+
+Duplicate Array:
+  Index(   0):                    A Count = 14
+  Index(   1):                    B Count = 10
+  Index(   2):                    C Count = 8
+  Index(   3):                    D Count = 12
+  Index(   4):                    E Count = 6
+  Index(   5):                    F Count = 6
+  Index(   6):                    G Count = 3
+  Index(   7):                    H Count = 2
+  Index(   8):                    I Count = 1
+  Index(   9):                    J Count = 1
+  Index(  10):                    K Count = 1
+  Index(  11):                    M Count = 1
+  Index(  12):                    N Count = 1
+  Index(  13):            TestCase1 Count = 2
+  Index(  14):            TestCase2 Count = 2
+  Index(  15):            TestCase3 Count = 2
+  Index(  16):            TestCase4 Count = 1
+  Index(  17):            TestCase5 Count = 1
+  Index(  18):            TestCase6 Count = 1
+  Index(  19):            TestCase7 Count = 1
+  Index(  20):            TestCases Count = 1
+  Index(  21):                    a Count = 2
+  Index(  22):                   f1 Count = 16
+  Index(  23):                  f10 Count = 1
+  Index(  24):                   f2 Count = 7
+  Index(  25):                   f3 Count = 6
+  Index(  26):                   f4 Count = 3
+  Index(  27):                   f5 Count = 3
+  Index(  28):                   f6 Count = 2
+  Index(  29):                   f7 Count = 3
+  Index(  30):                   f8 Count = 3
+  Index(  31):                   f9 Count = 1
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP6[?2004h[cssuwbstudent@KelvinLinuxMachine MP6]$ exit
+[?2004lexit
+
+Script done on 2025-10-26 19:11:00+00:00 [COMMAND_EXIT_CODE="0"]
