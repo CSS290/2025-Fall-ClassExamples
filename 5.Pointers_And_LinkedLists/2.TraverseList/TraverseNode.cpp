@@ -10,9 +10,9 @@ using namespace std;
 // Define a Node structure for the linked list
 struct Node {
     int data;
-    Node* next; // Pointer to the next node
+    Node *next; // Pointer to the next node
 
-    Node(int val, Node* nxt) 
+    Node(int val, Node *nxt) 
         : data(val), next(nxt) {}
         // This is a constructor!! It initializes data and next
         // The ":" syntax is an initializer list
@@ -25,8 +25,8 @@ struct Node {
 //   head - pointer to the head node of the list
 // Precondition: head points to the first node in the list or is nullptr if the list is empty
 // Postcondition: prints the data and address of each node in the list, does not change the list
-void TraverseAndPrint(string msg, Node* head) {
-    Node* current = head; // Start from the head node
+void TraverseAndPrint(string msg, Node *head) {
+    Node *current = head; // Start from the head node
     cout << msg << endl;
     while (current != nullptr) { // Traverse until the end of the list
         cout << "Node Data: " << current->data << ", Address: " << current << endl;
@@ -41,8 +41,8 @@ void TraverseAndPrint(string msg, Node* head) {
 //   target - the number to find
 // Precondition: head points to the first node in the list or is nullptr if the list is empty
 // Postcondition: returns the position of the target in the list, or -1 if not found
-int FindNumberFromList(Node* head, int target) {
-    Node* current = head; // Start from the head node
+int FindNumberFromList(Node *head, int target) {
+    Node *current = head; // Start from the head node
     int position = 0; // Position counter
 
     while (current != nullptr) { // Traverse until the end of the list
@@ -57,8 +57,8 @@ int FindNumberFromList(Node* head, int target) {
 
 int main() {
     // Create nodes
-    Node* firstNode = new Node(10, nullptr);    // Allocate and initialize first node
-    Node* secondNode = new Node(20, nullptr);
+    Node *firstNode = new Node(10, nullptr);    // Allocate and initialize first node
+    Node *secondNode = new Node(20, nullptr);
 
     // Connect the two nodes
     firstNode->next = secondNode; // Link first node to second node

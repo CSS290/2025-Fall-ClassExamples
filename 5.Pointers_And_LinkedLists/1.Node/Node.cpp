@@ -16,9 +16,9 @@ using namespace std;
 // Define a Node structure for the linked list
 struct Node {
     int data;
-    Node* next; // Pointer to the next node
+    Node *next; // Pointer to the next node
 
-    Node(int val, Node* nxt) 
+    Node(int val, Node *nxt) 
         : data(val), next(nxt) {}
         // This is a constructor!! It initializes data and next
         // The ":" syntax is an initializer list
@@ -26,8 +26,8 @@ struct Node {
 
 int main() {
     // Create nodes
-    Node* firstNode = new Node(10, nullptr);    // Allocate and initialize first node
-    Node* secondNode = new Node(20, nullptr);
+    Node *firstNode = new Node(10, nullptr);    // Allocate and initialize first node
+    Node *secondNode = new Node(20, nullptr);
 
     // Connect the two nodes
     firstNode->next = secondNode; // Link first node to second node

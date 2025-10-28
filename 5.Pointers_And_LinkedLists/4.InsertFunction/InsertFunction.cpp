@@ -15,9 +15,9 @@ using namespace std;
 // Define a Node structure for the linked list
 struct Node {
     int data;
-    Node* next; // Pointer to the next node
+    Node *next; // Pointer to the next node
 
-    Node(int val, Node* nxt) 
+    Node(int val, Node *nxt) 
         : data(val), next(nxt) {}
         // This is a constructor!! It initializes data and next
         // The ":" syntax is an initializer list
@@ -30,8 +30,8 @@ struct Node {
 //   head - pointer to the head node of the list
 // Precondition: head points to the first node in the list or is nullptr if the list is empty
 // Postcondition: prints the data of each node in the list, does not change the list
-void TraverseAndPrint(string msg, Node* head) {
-    Node* current = head; // Start from the head node
+void TraverseAndPrint(string msg, Node *head) {
+    Node *current = head; // Start from the head node
     cout << msg << " Data: " << endl;
     while (current != nullptr) { // Traverse until the end of the list
         cout << current->data << " ";
@@ -46,8 +46,8 @@ void TraverseAndPrint(string msg, Node* head) {
 //   target - the number to find
 // Precondition: head points to the first node in the list or is nullptr if the list is empty
 // Postcondition: returns the position of the target in the list, or -1 if not found
-int FindNumberFromList(Node* head, int target) {
-    Node* current = head; // Start from the head node
+int FindNumberFromList(Node *head, int target) {
+    Node *current = head; // Start from the head node
     int position = 0; // Position counter
 
     while (current != nullptr) { // Traverse until the end of the list
@@ -62,24 +62,24 @@ int FindNumberFromList(Node* head, int target) {
 
 // Function to insert a new node after the given node
 // Parameters:
-//   current - reference to the node after which to insert the new node
+//   current - pointer to the node after which to insert the new node
 //   newData - data for the new node
 // Precondition: current is defined
 // Postcondition: a new node with newData is inserted after current and 
 //                the pointer to the new node is returned
-Node* InsertAfter(Node& current, int newData) {
-    Node* newNode = new Node(newData, nullptr);
-    newNode->next = current.next; // Link newNode to the next node
+Node* InsertAfter(Node *current, int newData) {
+    Node *newNode = new Node(newData, nullptr);
+    newNode->next = current->next; // Link newNode to the next node
         // ** This step is crucial to avoid losing the rest of the list **
-    current.next = newNode;       // Link current to newNode
+    current->next = newNode;       // Link current to newNode
     return newNode;               // Return the newly created node
 }
 
 
 int main() {
     // Create nodes
-    Node* firstNode = new Node(10, nullptr);    // Allocate and initialize first node
-    Node* secondNode = new Node(20, nullptr);
+    Node *firstNode = new Node(10, nullptr);    // Allocate and initialize first node
+    Node *secondNode = new Node(20, nullptr);
 
     // Connect the two nodes
     firstNode->next = secondNode; // Link first node to second node
@@ -87,13 +87,13 @@ int main() {
     TraverseAndPrint("Before Insertion:", firstNode); // Traverse and print the list
 
     // Insert a new node with value 15 after the first node
-    InsertAfter(*firstNode, 15);
+    InsertAfter(firstNode, 15);
     TraverseAndPrint("After Insertion 15:", firstNode); // Traverse and print the list
 
-    Node *at = InsertAfter(*secondNode, 25);
+    Node *at = InsertAfter(secondNode, 25);
     TraverseAndPrint("After Insertion 25:", firstNode); // Traverse and print the
 
-    InsertAfter(*at, 30);
+    InsertAfter(at, 30);
     TraverseAndPrint("After Insertion 30:", firstNode); // Traverse and print the
 
     // Issues:

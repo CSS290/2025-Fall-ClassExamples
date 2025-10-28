@@ -10,9 +10,9 @@ using namespace std;
 // Define a Node structure for the linked list
 struct Node {
     int data;
-    Node* next; // Pointer to the next node
+    Node *next; // Pointer to the next node
 
-    Node(int val, Node* nxt) 
+    Node(int val, Node *nxt) 
         : data(val), next(nxt) {}
         // This is a constructor!! It initializes data and next
         // The ":" syntax is an initializer list
@@ -25,8 +25,8 @@ struct Node {
 //   head - pointer to the head node of the list
 // Precondition: head points to the first node in the list or is nullptr if the list is empty
 // Postcondition: prints the data of each node in the list, does not change the list
-void TraverseAndPrint(string msg, Node* head) {
-    Node* current = head; // Start from the head node
+void TraverseAndPrint(string msg, Node *head) {
+    Node *current = head; // Start from the head node
     cout << msg << " Data: " << endl;
     while (current != nullptr) { // Traverse until the end of the list
         cout << current->data << " ";
@@ -37,8 +37,8 @@ void TraverseAndPrint(string msg, Node* head) {
 
 int main() {
     // Create nodes
-    Node* firstNode = new Node(10, nullptr);    // Allocate and initialize first node
-    Node* secondNode = new Node(20, nullptr);
+    Node *firstNode = new Node(10, nullptr);    // Allocate and initialize first node
+    Node *secondNode = new Node(20, nullptr);
 
     // Connect the two nodes
     firstNode->next = secondNode; // Link first node to second node
@@ -46,7 +46,7 @@ int main() {
     TraverseAndPrint("Before Insertion:", firstNode); // Traverse and print the list
 
     // Create a new node
-    Node* newNode = new Node(15, nullptr); // New node to insert
+    Node *newNode = new Node(15, nullptr); // New node to insert
     // Insert newNode between firstNode and secondNode
     newNode->next = firstNode->next; // newNode points to secondNode
     firstNode->next = newNode;       // firstNode points to newNode 
