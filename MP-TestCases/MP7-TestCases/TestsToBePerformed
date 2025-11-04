@@ -1,0 +1,13 @@
+Assuming your program name is: LinkedInt
+Run your program with seeds: 0, 1, 2, 3, 4, 5
+Run your program with valgrind to check for memory leaks, e.g.,
+
+LinkedInt 0     //  fixed and varied are both 0
+LinkedInt 1     //  fixed 0
+LinkedInt 2     //  varied 0
+LinkedInt 3     //  fixed 0, varied 1
+LinkedInt 4     //  fixed 1, varied 0
+LinkedInt 5     //  fixed and varied are both 1
+
+valgrind LinkedInt 1357   // check if running with seed=1367 leaks memory
+valgrind LinkedInt 2468   // check if running with seed=2468 leaks memory

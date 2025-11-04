@@ -4,6 +4,9 @@
 //   Show how to search and insert into a linked list of directory entries
 //   To illustrate, in this case, for the node implementation,
 //   we can also use reference for the data member instead of pointer
+// New:
+//   1. Use of reference for data member in Node struct instead of pointer (not recommended in general)
+//   2. Function: FindNodeToInsert() to find the insertion point based on inversed order of names
 
 
 #include "../KFSLib/KFS.h"
@@ -115,7 +118,9 @@ int main(int argc, char* argv[]) {
     Node *head = new Node(dummy, nullptr); // Dummy header node
     for (int i = 0; i < num_entries; ++i) {
         Node *ptr = FindNodeToInsert(entries[i].name, head);
-        ptr->next = new Node(entries[i], ptr->next);
+        Node *newNode = new Node(entries[i], nullptr);
+        newNode->next = ptr->next;
+        ptr->next = newNode;
             // Insert in reversed order based on name    
     }
 

@@ -1,0 +1,121 @@
+Script started on 2025-11-04 17:24:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="225" LINES="21"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 0
+[?2004l----- Test case with seed: 0 -----
+Fixed input: 0 integers.
+    List: 
+Varied input: 0 integers.
+    List: 
+Merged list elements actually compared: 0
+    List: 
+
+===============================
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 0[K1
+[?2004l----- Test case with seed: 1 -----
+Fixed input: 0 integers.
+    List: 
+Varied input: 5 integers.
+    List: 8 9 78 92 100 
+Merged list elements actually compared: 0
+    List: 8 9 78 92 100 
+
+===============================
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 1[K2
+[?2004l----- Test case with seed: 2 -----
+Fixed input: 7 integers.
+    List: 24 36 37 59 67 88 97 
+Varied input: 0 integers.
+    List: 
+Merged list elements actually compared: 0
+    List: 24 36 37 59 67 88 97 
+
+===============================
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 2[K3
+[?2004l----- Test case with seed: 3 -----
+Fixed input: 0 integers.
+    List: 
+Varied input: 1 integers.
+    List: 26 
+Merged list elements actually compared: 0
+    List: 26 
+
+===============================
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 3[K4
+[?2004l----- Test case with seed: 4 -----
+Fixed input: 1 integers.
+    List: 80 
+Varied input: 0 integers.
+    List: 
+Merged list elements actually compared: 0
+    List: 80 
+
+===============================
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 4[K5
+[?2004l----- Test case with seed: 5 -----
+Fixed input: 1 integers.
+    List: 85 
+Varied input: 1 integers.
+    List: 45 
+Merged list elements actually compared: 1
+    List: 45 85 
+
+===============================
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ LinkedInt 5[K[K[K[K[K[K[K[K[K[K[Kvalgrind LinkedInt 13579
+[?2004l==35628== Memcheck, a memory error detector
+==35628== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==35628== Using Valgrind-3.23.0 and LibVEX; rerun with -h for copyright info
+==35628== Command: LinkedInt 13579
+==35628== 
+----- Test case with seed: 13579 -----
+Fixed input: 4 integers.
+    List: 16 22 27 94 
+Varied input: 5 integers.
+    List: 37 37 56 62 99 
+Merged list elements actually compared: 8
+    List: 16 22 27 37 37 56 62 94 99 
+
+===============================
+
+==35628== 
+==35628== HEAP SUMMARY:
+==35628==     in use at exit: 0 bytes in 0 blocks
+==35628==   total heap usage: 14 allocs, 14 frees, 73,920 bytes allocated
+==35628== 
+==35628== All heap blocks were freed -- no leaks are possible
+==35628== 
+==35628== For lists of detected and suppressed errors, rerun with: -s
+==35628== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ valgrind LinkedInt 13579[K[K[K[K[K1234567
+[?2004l==35720== Memcheck, a memory error detector
+==35720== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==35720== Using Valgrind-3.23.0 and LibVEX; rerun with -h for copyright info
+==35720== Command: LinkedInt 1234567
+==35720== 
+----- Test case with seed: 1234567 -----
+Fixed input: 7 integers.
+    List: 43 49 52 54 84 98 98 
+Varied input: 7 integers.
+    List: 11 23 29 32 38 47 51 
+Merged list elements actually compared: 9
+    List: 11 23 29 32 38 43 47 49 51 52 54 84 98 98 
+
+===============================
+
+==35720== 
+==35720== HEAP SUMMARY:
+==35720==     in use at exit: 0 bytes in 0 blocks
+==35720==   total heap usage: 19 allocs, 19 frees, 74,000 bytes allocated
+==35720== 
+==35720== All heap blocks were freed -- no leaks are possible
+==35720== 
+==35720== For lists of detected and suppressed errors, rerun with: -s
+==35720== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP7 - LinkedList[?2004h[cssuwbstudent@KelvinLinuxMachine MP7 - LinkedList]$ exit
+[?2004lexit
+
+Script done on 2025-11-04 17:25:14+00:00 [COMMAND_EXIT_CODE="0"]
