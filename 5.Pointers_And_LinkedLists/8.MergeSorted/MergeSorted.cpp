@@ -1,10 +1,18 @@
 // Date: 10/21/2025
 // Author: K. Sung
 // Purpose:
-//    Show how find an insertion node in a linked list with a dummy header node
-//    Then insert a new node after the found node
-//    New function:
-//     FindNodeWithValue - finds and returns the pointer to the node with the specified value
+//    Show how merge two sorted linked lists into a single sorted linked list
+//    The merged linked list should maintain the sorted order
+// New:
+//   MergeSortedLists() function to merge two sorted linked lists
+// 
+// Pay attention to memory management!!
+//     There are three linked lists, two input lists and one merged output list
+//     After merging, the two input lists should be empty (i.e., their nodes are
+//     all moved to the merged list)
+//     So, only the merged list needs to be destroyed at the end
+//     But, there are the dummy headers to be considered as well
+// Make sure to run valgrind to check for memory leaks
 
 
 #include <iostream>

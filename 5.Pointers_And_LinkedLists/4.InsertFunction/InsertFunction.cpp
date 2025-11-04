@@ -7,6 +7,9 @@
 //      this example focuses on using a reference to a node for simplicity.
 //      Note: This implementation does not handle inserting at the head of the list.
 //            Additionally, memory cleanup is not fully addressed here.
+//
+// New Function:
+//  InsertAfter() function to insert a new node after a given node
 
 
 #include <iostream>
