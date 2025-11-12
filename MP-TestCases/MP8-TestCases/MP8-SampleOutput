@@ -1,0 +1,201 @@
+Script started on 2025-11-10 01:05:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="154" LINES="15"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 0
+[?2004l----- Test case with seed: 0 -----
+Fixed count: 0
+ Fixed array: 
+List created: 
+
+Final list after all removals: 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 0[K1
+[?2004l----- Test case with seed: 1 -----
+Fixed count: 0
+ Fixed array: 
+List created: 
+
+Attempting to remove: 8
+  Value 8 not found in the list.
+
+Attempting to remove: 9
+  Value 9 not found in the list.
+
+Attempting to remove: 2
+  Value 2 not found in the list.
+
+Attempting to remove: 8
+  Value 8 not found in the list.
+
+Attempting to remove: 10
+  Value 10 not found in the list.
+
+Attempting to remove: 9
+  Value 9 not found in the list.
+
+Attempting to remove: 4
+  Value 4 not found in the list.
+
+Attempting to remove: 2
+  Value 2 not found in the list.
+
+Final list after all removals: 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 1[K2
+[?2004l----- Test case with seed: 2 -----
+Fixed count: 8
+ Fixed array: 6 9 8 4 7 7 7 7 
+List created: 6 9 8 4 7 7 7 7 
+
+Final list after all removals: 6 9 8 4 7 7 7 7 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 2[K3
+[?2004l----- Test case with seed: 3 -----
+Fixed count: 0
+ Fixed array: 
+List created: 
+
+Attempting to remove: 6
+  Value 6 not found in the list.
+
+Final list after all removals: 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 3[K4
+[?2004l----- Test case with seed: 4 -----
+Fixed count: 1
+ Fixed array: 10 
+List created: 10 
+
+Final list after all removals: 10 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 4[K5
+[?2004l----- Test case with seed: 5 -----
+Fixed count: 1
+ Fixed array: 5 
+List created: 5 
+
+Attempting to remove: 5
+  Found and removed: 5
+  List after removal: 
+
+Final list after all removals: 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 5[K127
+[?2004l----- Test case with seed: 127 -----
+Fixed count: 7
+ Fixed array: 7 7 2 3 8 3 4 
+List created: 7 7 2 3 8 3 4 
+
+Attempting to remove: 5
+  Value 5 not found in the list.
+
+Attempting to remove: 5
+  Value 5 not found in the list.
+
+Attempting to remove: 3
+  Found and removed: 3
+  List after removal: 7 7 2 8 3 4 
+
+Attempting to remove: 2
+  Found and removed: 2
+  List after removal: 7 7 8 3 4 
+
+Attempting to remove: 4
+  Found and removed: 4
+  List after removal: 7 7 8 3 
+
+Attempting to remove: 9
+  Value 9 not found in the list.
+
+Attempting to remove: 10
+  Value 10 not found in the list.
+
+Attempting to remove: 8
+  Found and removed: 8
+  List after removal: 7 7 3 
+
+Attempting to remove: 7
+  Found and removed: 7
+  List after removal: 7 3 
+
+Final list after all removals: 7 3 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ MoreList 127[K[K[K98765
+[?2004l----- Test case with seed: 98765 -----
+Fixed count: 9
+ Fixed array: 8 2 9 2 2 7 9 4 9 
+List created: 8 2 9 2 2 7 9 4 9 
+
+Attempting to remove: 6
+  Value 6 not found in the list.
+
+Attempting to remove: 1
+  Value 1 not found in the list.
+
+Attempting to remove: 7
+  Found and removed: 7
+  List after removal: 8 2 9 2 2 9 4 9 
+
+Attempting to remove: 1
+  Value 1 not found in the list.
+
+Attempting to remove: 6
+  Value 6 not found in the list.
+
+Attempting to remove: 1
+  Value 1 not found in the list.
+
+Attempting to remove: 1
+  Value 1 not found in the list.
+
+Attempting to remove: 2
+  Found and removed: 2
+  List after removal: 8 9 2 2 9 4 9 
+
+Final list after all removals: 8 9 2 2 9 4 9 
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ valgrind MoreList 13579
+[?2004l==95218== Memcheck, a memory error detector
+==95218== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==95218== Using Valgrind-3.23.0 and LibVEX; rerun with -h for copyright info
+==95218== Command: MoreList 13579
+==95218== 
+----- Test case with seed: 13579 -----
+Fixed count: 9
+ Fixed array: 2 6 4 7 2 7 7 9 2 
+List created: 2 6 4 7 2 7 7 9 2 
+
+Attempting to remove: 9
+  Found and removed: 9
+  List after removal: 2 6 4 7 2 7 7 2 
+
+Attempting to remove: 8
+  Value 8 not found in the list.
+
+Attempting to remove: 3
+  Value 3 not found in the list.
+
+Attempting to remove: 6
+  Found and removed: 6
+  List after removal: 2 4 7 2 7 7 2 
+
+Attempting to remove: 2
+  Found and removed: 2
+  List after removal: 4 7 2 7 7 2 
+
+Attempting to remove: 10
+  Value 10 not found in the list.
+
+Final list after all removals: 4 7 2 7 7 2 
+
+==95218== 
+==95218== HEAP SUMMARY:
+==95218==     in use at exit: 0 bytes in 0 blocks
+==95218==   total heap usage: 17 allocs, 17 frees, 74,017 bytes allocated
+==95218== 
+==95218== All heap blocks were freed -- no leaks are possible
+==95218== 
+==95218== For lists of detected and suppressed errors, rerun with: -s
+==95218== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-MPs/MP/MP8 - More Lists[?2004h[cssuwbstudent@KelvinLinuxMachine MP8 - More Lists]$ exit
+[?2004lexit
+
+Script done on 2025-11-10 01:06:08+00:00 [COMMAND_EXIT_CODE="0"]
