@@ -1,0 +1,44 @@
+valgrind ./mp9
+==70485== Memcheck, a memory error detector
+==70485== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==70485== Using Valgrind-3.23.0 and LibVEX; rerun with -h for copyright info
+==70485== Command: ./mp9
+==70485== 
+list1 +=:                [10 9 8 7 6 5 4 3 2 1 ]
+list2 copied:            [10 9 8 7 6 5 4 3 2 1 ]
+list1 -=:                [9 8 7 6 5 4 2 ]
+
+List1, List2:            NOT EQUAL
+list2 -= chain:          [9 8 7 6 5 4 2 ]
+List1, List2:            EQUAL
+
+list3 empty:             []
+list1 after assignment:  []
+List1, List3:            EQUAL
+
+List: list1_copy_copy size(8) destroyed.
+list1 = list2 + 100:     [9 8 7 6 5 4 2 100 ]
+list3 += list2:          [9 8 7 6 5 4 2 ]
+list2 remains:           []
+list3 += empty:          [9 8 7 6 5 4 2 ]
+list2 remains:           []
+
+List: list1_copy size(15) destroyed.
+list1 remains:           [9 8 7 6 5 4 2 100 ]
+list3 remains:           [9 8 7 6 5 4 2 ]
+list2 = list1 + list3:   [9 8 7 6 5 4 2 100 9 8 7 6 5 4 2 ]
+List: list1_copy size(8) destroyed.
+list1 final ops:         [500 8 7 6 5 4 2 600 ]
+
+List: list3 size(7) destroyed.
+List: list1_copy size(15) destroyed.
+List: list1 size(8) destroyed.
+==70485== 
+==70485== HEAP SUMMARY:
+==70485==     in use at exit: 0 bytes in 0 blocks
+==70485==   total heap usage: 98 allocs, 98 frees, 74,780 bytes allocated
+==70485== 
+==70485== All heap blocks were freed -- no leaks are possible
+==70485== 
+==70485== For lists of detected and suppressed errors, rerun with: -s
+==70485== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
