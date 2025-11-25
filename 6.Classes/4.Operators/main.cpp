@@ -61,15 +61,18 @@ int main() {
     } else {
         cout << "p4 is not equal to p3" << endl;
     }
+    cout << endl;
     
     cout << "Setting p1 = p4 - p3 * 2;" << endl;
-    p1 = p4 - p3 * 2;; // p1 gets a new value, p1's name is not op-
+    p1 = p4 - p3 * 2;; // p1 gets a new value, p1's name is now op-
     if (p1 == p3) {
         cout << "p1 is equal to p3" << endl;
-        p1.print("new p1(op-)");
+        p1.print("p1(op-)");
     } else {
         cout << "p1 is not equal to p3" << endl;
     }
-    
+    cout << endl;
+
+    cout << "End of main()" << endl;
     return 0;
 }

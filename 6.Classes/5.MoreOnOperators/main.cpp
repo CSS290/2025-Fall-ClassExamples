@@ -15,9 +15,12 @@ int main() {
 
     p1.operator++(); // ++p1 exactly the same as p1.operator++()
     p1.print("After ++p1");
+
+    p1.operator++(0); // p1++ exactly the same as p1.operator++(int)
+    p1.print("After p1++");
     cout << endl;
 
-    Point p2("p2", 0, 0);
+    Point p2("p2", 10, 20);
     p2.operator+=(p1); // p2 += p1 exactly the same as p2.operator+=(p1
     p2.print("After p2 += p1");
     cout << endl;

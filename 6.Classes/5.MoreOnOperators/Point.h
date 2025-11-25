@@ -15,6 +15,7 @@ class Point {
     int x, y; // private by default
 public:
     Point();              // Default constructor declaration
+    Point(const Point &p); // Copy constructor declaration
     Point(string n, int a, int b); // Constructor declaration
     ~Point();             // Destructor declaration
     void print(string msg) const;

@@ -14,6 +14,10 @@ Point::Point() : name("NoName"), x(0), y(0) {
     cout << name << ": constructor" << endl;
 }
 
+Point::Point(const Point &p) : name(p.name + "_copy"), x(p.x), y(p.y) {
+    cout << name << ": copy constructor called for (" << x << ", " << y << ")" << endl;
+}
+
 // Another constructor with parameters
 Point::Point(string n, int a, int b) : name(n), x(a), y(b) {
     cout << name << ": constructor called for (" << x << ", " << y << ")" << endl;

@@ -14,6 +14,11 @@ Point::Point() : name("NoName"), x(0), y(0) {
     cout << name << ": constructor" << endl;
 }
 
+// Copy constructor
+Point::Point(const Point &p) : name(p.name), x(p.x), y(p.y) {
+    cout << name << ": copy constructor called for (" << x << ", " << y << ")" << endl;
+}
+
 // Another constructor with parameters
 Point::Point(string n, int a, int b) : name(n), x(a), y(b) {
     cout << name << ": constructor called for (" << x << ", " << y << ")" << endl;
@@ -117,3 +122,10 @@ ostream& operator<<(ostream &os, const Point &p) {
     os << p.name << ":(" << p.x << ", " << p.y << ")"; // these are private data members!
     return os;
 }
+
+/*  Compiler Error:
+Point& operator++(Point &p) {
+    p.x++; p.y++; // these are private data members!
+    return p;
+}
+*/

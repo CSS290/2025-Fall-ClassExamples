@@ -47,5 +47,14 @@ int main() {
     // or, less humane way ...
     operator<<(operator<<(operator<<(cout, p1), p2), p3) << endl;
     cout << endl;
+
+    
+    /*  Compiler error: cannot differentiate between member function and global function
+    ++p1;  // global prefix increment operator
+           // from this operator function call,
+           // it is impossible to tell if the operator is a global function or a member function
+    p1.print("After ++p1");
+    */
+
     return 0;
 }

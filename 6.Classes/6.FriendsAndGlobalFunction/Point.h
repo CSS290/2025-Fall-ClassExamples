@@ -11,16 +11,22 @@ using namespace std;
 
 // Define a Point class
 class Point {
-    // declare these _global_ functions are my friend!
+    // declare these _global_ functions are my friends!
     friend void f(const Point&);  // the simplest case as an illustration
-    friend Point& operator--( Point&);
+    friend Point& operator--(Point&);
     friend Point operator-(const Point&, int scaler);
     friend ostream& operator<<(ostream&, const Point&);
+
+    // Note, the following will cause compiler errors for the inability to differentiate
+    // between member function and global function
+    //       friend Point& operator++(Point&); // this is a member function
+    // friend Point operator+(const Point&, const Point&); // this is a member function
 
     string name; // this is for clarity in debugging output
     int x, y; // private by default
 public:
     Point();              // Default constructor declaration
+    Point(const Point &p); // Copy constructor declaration
     Point(string n, int a, int b); // Constructor declaration
     ~Point();             // Destructor declaration
     void print(string msg) const;
