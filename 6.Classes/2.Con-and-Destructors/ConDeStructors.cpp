@@ -6,8 +6,6 @@
 //     1. Scope, that destructors are called automatically when objects go out of scope (the inner {})
 //     2. Constructors: default and parameterized
 //     3. Copy constructor: default by the compiler
-//     4. Assignment operator: default by the compiler
-//     5. Difference between copy constructor and assignment operator
 //
 #include <iostream>
 using namespace std;
